@@ -6,9 +6,9 @@
     <HomeLogos />
     <HomeCta />
   </main> -->
-	<main>
+	<div class="main">
 		<center><h1>404 Not Found</h1></center>
 		<hr />
 		<center>error</center>
-	</main>
+	</div>
 </template>
