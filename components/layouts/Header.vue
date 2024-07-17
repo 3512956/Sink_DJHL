@@ -21,11 +21,10 @@ const showMenu = ref(false)
             >
               <img
                 src="/sink.png"
-                
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">url</span>
+            <span class="mx-2">控制台</span>
           </a>
         </div>
 

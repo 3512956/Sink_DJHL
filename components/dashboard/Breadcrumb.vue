@@ -12,12 +12,12 @@ defineProps({
 <template>
   <Breadcrumb class="flex justify-between">
     <BreadcrumbList>
-      <BreadcrumbItem>
+      <!-- <BreadcrumbItem>
         <BreadcrumbLink href="/">
           Sink
         </BreadcrumbLink>
-      </BreadcrumbItem>
-      <BreadcrumbSeparator />
+      </BreadcrumbItem> -->
+      <!-- <BreadcrumbSeparator /> -->
       <BreadcrumbItem>
         <BreadcrumbLink
           :as="NuxtLink"
