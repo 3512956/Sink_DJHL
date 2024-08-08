@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: '404',
+  title: 'url',
   description: '',
   image: '',
   previewTTL: 24 * 3600, // 24h
