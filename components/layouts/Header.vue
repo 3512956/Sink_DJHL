@@ -1,6 +1,5 @@
 <script setup>
 import { Ellipsis, X } from 'lucide-vue-next'
-import { GitHubIcon } from 'vue3-simple-icons'
 import SwitchTheme from '../SwitchTheme.vue'
 
 const showMenu = ref(false)
@@ -10,7 +9,7 @@ const showMenu = ref(false)
   <section class="pb-6">
     <nav class="container relative z-50 h-24 select-none">
       <div
-        class="container relative flex flex-wrap items-center justify-between h-24 px-0 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center"
+        class="container relative flex flex-wrap items-center justify-between h-24 px-0 mx-auto overflow-hidden font-medium border-b aaaaaborder-gray-200 md:overflow-visible lg:justify-center"
       >
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
@@ -19,12 +18,12 @@ const showMenu = ref(false)
             <span
               class="flex items-center justify-center w-8 h-8 rounded-full"
             >
-              <img
+              <!-- <img
                 src="/sink.png"
                 class="w-full h-full rounded-full"
-              >
+              > -->
             </span>
-            <span class="mx-2">控制台</span>
+            <span class="mx-2">&nbsp;</span>
           </a>
         </div>
 
@@ -44,7 +43,7 @@ const showMenu = ref(false)
               >
                 <img
                   src="/sink.png"
-                  
+
                   class="w-full h-full rounded-full"
                 >
               </span>
@@ -54,7 +53,6 @@ const showMenu = ref(false)
             <div
               class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"
             >
-             
               <span class="ml-1">
                 <SwitchTheme />
               </span>
