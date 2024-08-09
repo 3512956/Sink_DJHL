@@ -7,9 +7,9 @@ const showMenu = ref(false)
 
 <template>
   <section class="pb-6">
-    <nav class="container relative z-50 h-24 select-none">
+    <nav class="container relative z-50 select-none">
       <div
-        class="container relative flex flex-wrap items-center justify-between h-24 px-0 mx-auto overflow-hidden font-medium border-b aaaaaborder-gray-200 md:overflow-visible lg:justify-center"
+        class="container relative flex flex-wrap items-center justify-between px-0 mx-auto overflow-hidden font-medium border-b aaaaaborder-gray-200 md:overflow-visible lg:justify-center"
       >
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
